@@ -1,0 +1,48 @@
+div {
+    text-align: center;
+    font-size: 25px;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+td {
+    border: solid;
+    border-width: 1px;
+    width: 120px;
+    height: 120px;
+}
+
+caption {
+    font-size: 30px;
+    caption-side: bottom;
+}
+
+p {
+    width: 350px;
+    position: absolute;
+    float: right;
+}
+
+button {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}

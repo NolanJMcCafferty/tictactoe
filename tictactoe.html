@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+
+</head>
+
+<body>
+    <script type="text/javascript" src="tictactoe.js"></script>
+
+    <div id="title">
+        <span id="red">
+            Red </span>-
+        <span id="blue">Blue</span> Tic Tac Toe
+    </div><br>
+    <div>By Nolan McCafferty</div>
+    <p><b>How to Play: </b> There are two players, red and blue. The players alternated making moves, with red moving first. Until there are three squares of each color on the board, red (or blue) selects a white square and marks it with red (or blue). After
+        there are three squares of each color on the board, red (or blue) selects a white square and marks it with red (or blue). As soon as this happens, the square that was least recently marked red (or blue) reverts to white. The game continues in
+        this fashion, with the players alternating moves, until red (or blue) wins by having the three red (or blue) squares on the same row, column, or diagonal.
+    </p>
+
+    <table>
+        <caption id="win"></caption>
+        <tr>
+            <td id="1" onclick="movePlayed('1')"></td>
+            <td id="2" onclick="movePlayed('2')"></td>
+            <td id="3" onclick="movePlayed('3')"></td>
+        </tr>
+        <tr>
+            <td id="4" onclick="movePlayed('4')"></td>
+            <td id="5" onclick="movePlayed('5')"></td>
+            <td id="6" onclick="movePlayed('6')"></td>
+        </tr>
+        <tr>
+            <td id="7" onclick="movePlayed('7')"></td>
+            <td id="8" onclick="movePlayed('8')"></td>
+            <td id="9" onclick="movePlayed('9')"></td>
+        </tr>
+    </table>
+
+    <button type="button" onclick="newGame()">Start New Game</button>
+
+</body>
+
+</html>
